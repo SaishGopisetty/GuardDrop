@@ -1,0 +1,29 @@
+# Agent and local instruction files
+AGENTS.md
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Test and runtime artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+backend/.test_auth.db
+guarddrop.db
+backend/guarddrop.db
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
